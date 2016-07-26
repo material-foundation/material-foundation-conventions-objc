@@ -19,7 +19,7 @@ usage() {
   echo "Usage:"
   echo "$0 [ComponentName] [path]"
   echo
-  echo "Creates a directory structure for a GOS component in the provided path."
+  echo "Creates a directory structure for a MDF component in the provided path."
   echo
   echo "Example usage: $0 MyComponent ~/workbench/"
 }
