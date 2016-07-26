@@ -31,11 +31,11 @@ The following convention defines a file system structure for a shared Objective-
     
       src/                    <- All library source lives here.
         LibraryName.h         <- Umbrella header.
-        GOSObject.h           <- Library source must be written in Objective-C.
-        GOSObject.m           
+        MDFObject.h           <- Library source must be written in Objective-C.
+        MDFObject.m           
         private/              <- Private APIs live in a sub-directory
-          GOSPrivateAPI.h
-          GOSPrivateAPI.m
+          MDFPrivateAPI.h
+          MDFPrivateAPI.m
         LibraryName.bundle/   <- All assets required by the source.
     
       tests/
@@ -48,7 +48,7 @@ The following convention defines a file system structure for a shared Objective-
 
 ## Style conventions
 
-GOS libraries use clang-format to automatically clean up stylistic aspects of the source. Place a
+MDF libraries use clang-format to automatically clean up stylistic aspects of the source. Place a
 copy of [.clang-format](.clang-format) at the root of the library tree.
 
 There is a soft (aka: human-enforced) 100 character line length limit.
@@ -96,10 +96,10 @@ for each example app.
 
 ## Bootstrap script
 
-The bootstrap script creates the skeletal directory structure for a GOS repo. This script must be
+The bootstrap script creates the skeletal directory structure for a MDF repo. This script must be
 provided a library name and a path.
 
 Example usage:
 
-    # Create a new directory, ~/workbench/MyLibrary/, populated with the GOS conventional structure.
+    # Create a new directory, ~/workbench/MyLibrary/, populated with the MDF conventional structure.
     ./bootstrap MyLibrary ~/workbench/
