@@ -10,6 +10,7 @@ The following convention defines a file system structure for a shared Objective-
       CHANGELOG.md            <- Release notes and history.
       README.md               <- Essential installation and usage guide.
       LibraryName.podspec     <- The podspec for the library.
+      Podfile                 <- Podfile for the canonical demo application.
     
       docs/                   <- In-depth technical documentation.
         TechnicalDoc1.md      <- Docs are written in Markdown.
@@ -39,6 +40,8 @@ The following convention defines a file system structure for a shared Objective-
         LibraryName.bundle/   <- All assets required by the source.
     
       tests/
+        src/
+          Mock.swift          <- Testing-specific source. This might be exported in the podspec.
         interaction/          <- User interaction tests.
           SomeTest.swift      <- Tests can be Swift,
           AnotherTest.m       <-                     or Objective-C.
