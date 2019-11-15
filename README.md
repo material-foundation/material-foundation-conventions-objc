@@ -18,9 +18,9 @@ The following convention defines a file system structure for a shared Objective-
           image.png           <- Pngs, movs, gifs, etc...
     
       examples/
-        Example.swift         <- Examples can be Swift,
-        Example.h             <-                        or
-        Example.m             <-                           Objective-C.
+        <#LibraryName#><#Example#>Example.swift <- Examples can be Swift,
+        <#LibraryName#><#Example#>Example.h     <-                        or
+        <#LibraryName#><#Example#>Example.m     <-                           Objective-C.
         supplemental/         <- Non-educational code used by the examples.
           SomeView.swift      <- Supplemental code can be Swift
           SomeView.h          <-                                or
