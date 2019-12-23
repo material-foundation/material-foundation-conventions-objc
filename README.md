@@ -19,7 +19,7 @@ The following convention defines a file system structure for a shared Objective-
     
       examples/
         <#LibraryName#><#Example#>Example.swift <- Examples can be Swift,
-        <#LibraryName#><#Example#>Example.m     <-                        or Objective-C.
+        <#LibraryName#><#Example#>Example.m     <- or Objective-C.
         supplemental/         <- Non-educational code used by the examples.
           SomeView.swift      <- Supplemental code can be Swift
           SomeView.h          <-                                or
